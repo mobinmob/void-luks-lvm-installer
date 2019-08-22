@@ -123,7 +123,7 @@ done
 mkdir -p /mnt/var/db/xbps/keys/
 cp -a /var/db/xbps/keys/* /mnt/var/db/xbps/keys/
 
-xbps-install -y -S -R http://repo.voidlinux.eu/current -r /mnt $PKG_LIST
+xbps-install -y -S -R https://mirrors.dotsrc.org/voidlinux/current -r /mnt $PKG_LIST
 
 # Do a bit of customization
 echo "[!] Setting root password"
